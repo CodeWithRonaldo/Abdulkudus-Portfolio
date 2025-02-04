@@ -9,17 +9,18 @@ import {
 function Hero() {
   return (
     <>
-      <div>
+      <div className="hero-container">
         <h1>
-          I build & Manage <span>Crypto Communities</span>
+          I build & Manage <br />
         </h1>
+        <h1 className="crypto"> <span>Crypto Communities</span></h1>
         <p>
           Community Manager | Community Lead | Community Builder | Crypto
           Enthusiast | Discord Technician | Help Web3 Communities become fun
           again 😉
         </p>
       </div>
-      <div>
+      <div className="social-links">
         <a href="https://github.com/CodeWithRonaldo">
           <FaGithubSquare />
         </a>
@@ -33,7 +34,9 @@ function Hero() {
           <FaTwitterSquare />
         </a>
       </div>
-      <button>Contact me</button>
+      <div className="contact-btn">
+        <button>Contact me</button>
+      </div>
     </>
   );
 }
