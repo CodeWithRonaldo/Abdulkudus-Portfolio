@@ -20,6 +20,12 @@ body {
   color: #fff;
   width: 100%;
 }
+
+.nav-links h1{
+ 
+  font-size: 32px;
+
+}
 .links {
   padding: 10px;
 }
@@ -39,18 +45,20 @@ a:hover {
   flex-direction: column;
   padding-top: 120px;
   align-items: center;
-  /* place-items: center; */
+  
+  
 
 }
 
 .hero-container h1 {
   font-size: 5.2rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 .hero-container p {
   font-size: 1rem;
   padding: 10px;
 }
+
 
 .crypto span {
   font-family: "Josefin Sans", sans-serif;
@@ -103,23 +111,24 @@ button:focus-visible {
   font-size: 40px;
 }
 
-.about-container {
+.home-about-container {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 }
 
-.about-container h1 {
+.home-about-container h1 {
   display: flex;
   font-size: 3rem;
   justify-content: center;
   padding: 50px;
+  
 }
 
-.about-container p {
+.home-about-container p {
   font-size: 1.2rem;
   text-align: center;
   padding: 10px;
+  
   
 }
 
@@ -140,29 +149,149 @@ button:focus-visible {
   padding: 30px;
 }
 
-.wwm-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 10px;
-  text-align: center;
-  text-align: justify;
-  font-size: 20px;
-  margin-top: 50px;
-  /* width: 50%; */
-  font-family: Arial, Helvetica, sans-serif;
+.wwm-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.7;
+  color: #333;
 }
 
-.strategy-container h1{
-  margin-top: 50px;
-  padding: 20px;
+.wwm h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
 }
-.management-container h1 {
-  margin-top: 50px;
-  padding: 20px;
+
+.wwm p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
+
+.strategy-container,
+.management-container {
+  background: #f8f8f8;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.wwm-container strong {
+  color: #007bff;
+}
+
+.wwm-cta {
+  display: inline-block;
+  padding: 12px 20px;
+  background: black;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.wwm-cta:hover {
+  background: #0056b3;
+}
+
+.contact-form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.about-container h1{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 20px;
+  /* gap: 10px; */
+  /* margin: 300px; */
+  text-align: center;
+  /* text-align: justify; */
+  font-size: 50px;
+  /* margin-top: 50px; */
+  /* width: 50%; */
+  /* background-color: beige; */
+
+}
+
+.about-me {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+}
+
+
+.about-me h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+.about-me p {
+  margin-bottom: 15px;
+}
+
+
+.about-me ul {
+  padding-left: 20px;
+}
+
+.about-me ul li {
+  margin-bottom: 10px;
+}
+
+
+.about-wwm-cta {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.about-wwm-cta a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-wwm-cta a:hover {
+  text-decoration: underline;
+}
+
+.work-experience{
+  text-align: center;
+  font-size: 45px;
+  margin-top: 20px;
+
+}
+
+
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

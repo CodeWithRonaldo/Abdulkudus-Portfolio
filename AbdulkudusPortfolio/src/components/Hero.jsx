@@ -10,10 +10,13 @@ function Hero() {
   return (
     <>
       <div className="hero-container">
-        <h1>
+        <h1 className="title">
           I build & Manage <br />
         </h1>
-        <h1 className="crypto"> <span>Crypto Communities</span></h1>
+        <h1 className="crypto">
+          {" "}
+          <span>Crypto Communities</span>
+        </h1>
         <p>
           Community Manager | Community Lead | Community Builder | Crypto
           Enthusiast | Discord Technician | Help Web3 Communities become fun
